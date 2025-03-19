@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "title" : "Customer Support",
+        "type"  : "phone",
+        "contact" : "09154077565",
+        "content" : "Call our hotlines at 0915-407-7565 (Globe)"
+    },
+    {
+        "id": "2",
+        "title" : "Billing Concern",
+        "type"  : "phone",
+        "contact" : "09154077555",
+        "content" : "Call our hotline at 0915-407-7555 (Globe)"
+    },
+    {
+        "id": "3",
+        "title" : "General Inquiries",
+        "type"  : "email",
+        "contact" : "customercare@switchfiber.p",
+        "content" : "Reach out to us at customercare@switchfiber.ph"
+    },
+    {
+        "id": "4",
+        "title" : "Marketing Inquiries",
+        "type"  : "email",
+        "contact" : "customercare@switchfiber.p",
+        "content" : "Email us at customercare@switchfiber.ph"
+    }
+]
