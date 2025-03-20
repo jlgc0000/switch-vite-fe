@@ -16,9 +16,10 @@
   "dependencies": {
     "@react-spring/parallax": "^9.7.5",
     "flowbite-react": "^0.8.0",
+    "lucide-react": "^0.483.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^5.3.0",
+    "react-icons": "^5.5.0",
     "react-router-dom": "^7.0.1"
   },
   "devDependencies": {
@@ -27,16 +28,16 @@
     "@typescript-eslint/eslint-plugin": "^7.3.1",
     "@typescript-eslint/parser": "^7.3.1",
     "@vitejs/plugin-react": "^4.2.1",
-    "autoprefixer": "^10.4.18",
+    "autoprefixer": "^10.4.21",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
     "eslint-plugin-tailwindcss": "^3.15.1",
-    "postcss": "^8.4.37",
+    "postcss": "^8.5.3",
     "prettier-plugin-tailwindcss": "^0.5.12",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5.4.2",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.2",
     "vite": "^6.2.0"
   }
 }
