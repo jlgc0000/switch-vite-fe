@@ -13,7 +13,7 @@ const NavBar = () => {
   const path = useLocation().pathname;
 
   return (
-    <Navbar className="border-b border-indigo-500 bg-indigo-700">
+    <Navbar className=" border-b border-indigo-500 bg-indigo-700">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           <div className="flex flex-1 items-center justify-start md:items-stretch md:justify-start">

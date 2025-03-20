@@ -3,10 +3,10 @@ import React from 'react'
 
 const Hero = ({title, subTitle}) => {
   return (
-    <section className='h-auto bg-fibr-pattern bg-cover bg-center px-4 py-20 opacity-90 md:py-60'>
-      <div className="mx-auto flex max-w-7xl flex-col items-center px-4 sm:px-6 lg:px-8">
+    <section className='relative h-screen bg-cover bg-fixed bg-center flex items-center justify-center px-4 py-20 md:py-60 bg-fibr-pattern opacity-80 '>
+      <div className="mx-auto flex max-w-7xl items-center px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h1 className="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl" >
+          <h1 className="text-6xl font-extrabold text-white sm:text-5xl md:text-6xl">
             {title}
           </h1>
           <p className="my-4 text-xl text-white">

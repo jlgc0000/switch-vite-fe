@@ -11,7 +11,11 @@ export default {
       backgroundImage: {
         'tech-pattern': "url('./src/assets/images/tech.jpg')",
         'fibr-pattern': "url('./src/assets/images/fibr.jpg')",
-        'help-pattern': "url('./src/assets/images/help.png')"
+        'help-pattern': "url('./src/assets/images/help.png')",
+        'server-pattern': "url('./src/assets/images/server.jpg')",
+        'banner-pattern': "url('./src/assets/images/banner.png')",
+        'contact-pattern': "url('./src/assets/images/contact.jpg')"
+      
       }
     },
   },
