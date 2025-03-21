@@ -42,22 +42,19 @@ const HomePage = () => {
       <Section id="plans">
         <PlanList isHome={true} />
       </Section>
-
       <Section>
         <Banner />
       </Section>
-
       <Section id="promos">
         <PromoList isHome={true} />
       </Section>
-
       <Section id="aboutus">
         <AboutUs />
       </Section>
-      <Section >
+      <Section id="equipment">
         <Equipment />
       </Section>
-       <Section >
+       <Section id="team">
         <OurTeam />
       </Section>
       <Section id="help">
