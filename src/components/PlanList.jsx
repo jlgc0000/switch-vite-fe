@@ -9,7 +9,7 @@ const PlanList = ({ isHome = false }) => {
   const planListing = isHome ? plan.slice(0, 3) : plan;
 
   return (
-    <section className="bg-white px-4 py-10">
+    <section className="bg-white h-full px-4 py-10">
       <div className="md:container md:mx-auto">
         <h2 className="m-auto mb-10 text-center text-6xl font-bold text-indigo-500">
           {isHome ? "Latest Plans" : "All Plans"}

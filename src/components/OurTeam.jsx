@@ -22,7 +22,7 @@ const InstallationGallery = () => {
   return (
     <section className="bg-gray-100 py-20 px-6 text-center w-full overflow-hidden">
     <div className="max-w-5xl mx-auto text-center">
-      <h2 className="text-4xl font-extrabold text-indigo-500 mb-8">Our Team</h2>
+      <h2 className="text-4xl font-extrabold text-indigo-500 mb-8">OUR TEAM</h2>
       <p className="text-lg text-gray-700 mb-12">
         {team.ourteam[0].description}
       </p>
