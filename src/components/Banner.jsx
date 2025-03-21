@@ -12,6 +12,7 @@ const Banner = () => {
         <img src={nz3} className='p-6 h-auto' alt="NZ3" />
       </div>
   </div>
+  
     </>
   )
 }
