@@ -2,11 +2,11 @@ import React from "react";
 import { motion } from "framer-motion"; // Import Framer Motion
 import plan from "../data/plans.json";
 import { Link } from "react-router-dom";
-import PlanPricingCard from "./plan-page/PlanPricingCard";
+import PlanCard from "./PlanCard";
 import ViewAllJobs from "./ViewAllJobs";
 
 const PlanList = ({ isHome = false }) => {
-  const planListing = isHome ? plan.slice(0, 5) : plan;
+  const planListing = isHome ? plan.slice(0, 3) : plan;
 
   return (
     <section className="bg-white px-4 py-10">
@@ -16,18 +16,20 @@ const PlanList = ({ isHome = false }) => {
         </h2>
 
         {/* Grid Wrapper */}
-        <div className="flex flex-wrap justify-center gap-6 md:grid-cols-5">
-          {planListing.map((plan, index) => (
-            <motion.div
+        <div className=" flex flex-wrap justify-center  grid-cols-1 gap-6 md:grid-cols-4">
+          {planListing.map( (plan,index) => (
+             <motion.div
               key={plan.id}
               initial={{ opacity: 0, y: 30 }} // Start invisible & lower
               animate={{ opacity: 1, y: 0 }} // Fade in & move up
-              transition={{ duration: 0.6, delay: index * 0.1 }} // Staggered effect
+              transition={{ duration: 0.6, delay: index * 0.3 }} // Staggered effect
             >
-              <PlanPricingCard />
+             <PlanCard key={plan.id} plan={plan} className="h-full"/>
             </motion.div>
-          ))}
-        </div>
+                 
+               // <PlanPricingCard />
+              ))}
+          </div>
 
         {isHome && <ViewAllJobs />}
       </div>

@@ -61,7 +61,7 @@ const FlowBiteNavBar = () => {
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
         {/* Logo */}
         <NavbarBrand className="cursor-pointer">
-          <Link to="/" onClick={(e) => { e.preventDefault(); scrollToSection("home"); }} className="flex items-center">
+          <Link to="/" onClick={(e) => {scrollToSection("home"); }} className="flex items-center">
             <img src={logo} className="mr-3 h-12 sm:h-16" alt="Logo" />
           </Link>
         </NavbarBrand>
@@ -72,7 +72,7 @@ const FlowBiteNavBar = () => {
         </button>
 
         {/* Navigation Links */}
-        <NavbarCollapse className={`absolute md:relative left-0 top-full md:top-0 w-full md:w-auto bg-white md:bg-transparent flex flex-col md:flex-row transition-all duration-300 ease-in-out ${isOpen ? "block" : "hidden"}`}>
+        <NavbarCollapse className={`absolute md:relative left-0 top-full md:top-0 w-full md:w-auto bg-indigo-700 md:bg-transparent flex flex-col md:flex-row transition-all duration-300 ease-in-out ${isOpen ? "block" : "hidden"}`}>
           {[ { name: "Home", id: "home" }, 
           { name: "Plans", id: "plans" }, 
           { name: "Promos", id: "promos" },

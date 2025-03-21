@@ -1,5 +1,5 @@
-import React from "react";
-import { motion } from "framer-motion"; // Import Framer Motion
+import React, { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 import Hero from "../components/Hero";
 import PlanList from "../components/PlanList";
 import FaqListing from "../components/faq-page/FaqListing";
@@ -11,24 +11,30 @@ import Equipment from "../components/Equipment";
 import OurTeam from "../components/OurTeam";
 
 const HomePage = () => {
-  // Section Wrapper with Animation
-  const Section = ({ id, children }) => {
-    const navbar = document.getElementById("navbar");
-    const navbarHeight = navbar ? navbar.offsetHeight : 0;
+  const [navbarHeight, setNavbarHeight] = useState(0);
 
-    return (
-      <motion.div
-        id={id}
-        style={{ paddingTop: id === "home" ? "0px" : navbarHeight + "px" }}
-        initial={{ opacity: 0, y: 90 }} // Start invisible & lower
-        whileInView={{ opacity: 1, y: 0 }} // Fade in & move up
-        transition={{ duration: 1.5, ease: "easeOut" }} // Smooth effect
-        viewport={{ once: true }} // Animate once per scroll
-      >
-        {children}
-      </motion.div>
-    );
-  };
+  useEffect(() => {
+    const navbar = document.getElementById("navbar");
+    if (navbar) {
+      setNavbarHeight(navbar.offsetHeight);
+    }
+  }, []);
+
+ const Section = ({ id, children }) => {
+  return (
+    <motion.div
+      id={id}
+      className="scroll-mt-[4rem]" // Adjusts scroll positioning without extra space
+      initial={{ opacity: 0, y: 90 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1.5, ease: "easeOut" }}
+      viewport={{ once: true }}
+    >
+      {children}
+    </motion.div>
+  );
+};
+
 
   return (
     <>
@@ -54,13 +60,12 @@ const HomePage = () => {
       <Section id="equipment">
         <Equipment />
       </Section>
-       <Section id="team">
+      <Section id="team">
         <OurTeam />
       </Section>
       <Section id="help">
         <Contacts />
       </Section>
-
       <Section>
         <FaqListing />
       </Section>

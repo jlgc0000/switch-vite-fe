@@ -37,7 +37,7 @@ const Equipment = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
+    <div className="min-h-96 mb-32  bg-white mt-10 p-6">
       <h1 className="text-4xl font-extrabold text-indigo-500 mb-8 text-center">Fiber Connection Equipments</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {equipments.map((equipment, index) => (
