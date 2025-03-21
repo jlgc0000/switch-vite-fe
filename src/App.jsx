@@ -3,7 +3,7 @@ import MainLayout from './layout/MainLayout'
 import NotFoundPage from './pages/NotFoundPage'
 import PromosPage from './pages/PromosPage'
 import HelpPage from './pages/HelpPage'
-import CoveragePage from './pages/CoveragePage'
+import AboutUs from './pages/AboutUs'
 
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom'
 import PlansPage from './pages/PlansPage'
@@ -12,7 +12,7 @@ const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<MainLayout />}>
     <Route index element={<HomePage />} />
     <Route path='/promos' element={<PromosPage />} />
-    <Route path='/coverage' element={<CoveragePage />} />
+    <Route path='/aboutus' element={<AboutUs />} />
     <Route path='/plans' element={<PlansPage />} />
     <Route path='/help' element={<HelpPage />} />
     <Route path='*' element={<NotFoundPage />} />

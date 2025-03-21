@@ -43,10 +43,10 @@ const NavBar = () => {
                   Promos{" "}
                 </Link>
               </NavbarLink>
-              <NavbarLink active={path == "/coverage"} as={"div"}>
-                <Link to="/coverage">
+              <NavbarLink active={path == "/aboutus"} as={"div"}>
+                <Link to="/aboutus">
                   {" "}
-                  Coverage{" "}
+                  About Us{" "}
                 </Link>
               </NavbarLink>
               <NavbarLink active={path == "/help"} as={"div"}>

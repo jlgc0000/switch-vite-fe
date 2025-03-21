@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import PlanCard from '../components/PlanCard';
 import PlanPricingCard from '../components/plan-page/PlanPricingCard';
 import ViewAllJobs from '../components/ViewAllJobs';
-
+import { motion } from "framer-motion";
 
 const PromoList = ({ isHome = false }) => {
     const planListing = isHome ? plan.slice(0, 3) : plan;
@@ -19,8 +19,16 @@ const PromoList = ({ isHome = false }) => {
           {isHome ? 'Latest Promo' : 'Available Promos'}
           </h2>
           <div className=" flex flex-wrap justify-center  grid-cols-1 gap-6 md:grid-cols-3">
-          {planListing.map( (plan) => (
-                 <PlanCard key={plan.id} plan={plan} className="h-full"/>
+          {planListing.map( (plan,index) => (
+             <motion.div
+              key={plan.id}
+              initial={{ opacity: 0, y: 30 }} // Start invisible & lower
+              animate={{ opacity: 1, y: 0 }} // Fade in & move up
+              transition={{ duration: 0.6, delay: index * 0.3 }} // Staggered effect
+            >
+             <PlanCard key={plan.id} plan={plan} className="h-full"/>
+            </motion.div>
+                 
                // <PlanPricingCard />
               ))}
           </div>
