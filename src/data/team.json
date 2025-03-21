@@ -1,0 +1,29 @@
+{
+    "ourteam":[
+        {
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+    ],
+  "installations": [
+    {
+      "image": "./src/assets/images/contact.jpg",
+      "description": "Fiber optic cable installation at a commercial site."
+    },
+    {
+      "image": "./src/assets/images/fibr.jpg",
+      "description": "Network configuration and setup for a corporate office."
+    },
+    {
+      "image": "./src/assets/images/hub.jpg",
+      "description": "Outdoor fiber optic deployment for residential areas."
+    },
+    {
+      "image": "./src/assets/images/logo.jpg",
+      "description": "Server rack and networking equipment installation."
+    },
+    {
+      "image": "./src/assets/images/nz3.jpg",
+      "description": "Troubleshooting and maintenance of fiber connections."
+    }
+  ]
+}
