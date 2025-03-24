@@ -6,15 +6,15 @@
     ],
   "installations": [
     {
-      "image": "./src/assets/images/contact.jpg",
+      "image": "./src/assets/images/logo.jpg",
       "description": "Fiber optic cable installation at a commercial site."
     },
     {
-      "image": "./src/assets/images/fibr.jpg",
+      "image": "./src/assets/images/logo.jpg",
       "description": "Network configuration and setup for a corporate office."
     },
     {
-      "image": "./src/assets/images/hub.jpg",
+      "image": "./src/assets/images/logo.jpg",
       "description": "Outdoor fiber optic deployment for residential areas."
     },
     {
@@ -22,7 +22,7 @@
       "description": "Server rack and networking equipment installation."
     },
     {
-      "image": "./src/assets/images/nz3.jpg",
+      "image": "./src/assets/images/logo.jpg",
       "description": "Troubleshooting and maintenance of fiber connections."
     }
   ]

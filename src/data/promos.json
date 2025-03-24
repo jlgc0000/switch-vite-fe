@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "title" : "Promo One",
+        "monthly" : "699",
+        "description" : "Turbo Speed,No Data Cap,No Hidden Charges,1 Year Lock-in",
+        "image" : "",
+        "popular" : false
+    },
+    {
+        "id": "2",
+        "title" : "Promo Two",
+        "monthly" : "799",
+        "description" : "Turbo Speed,No Data Cap,No Hidden Charges,1 Year Lock-in",
+        "image" : "",
+        "popular" : true
+    },
+    {
+        "id": "3",
+        "title" : "Promo Three",
+        "monthly" : "999",
+        "description" : "Turbo Speed,No Data Cap,No Hidden Charges,1 Year Lock-in",
+        "image" : "",
+        "popular" : false
+    },
+    {
+        "id": "4",
+        "title" : "Promo Four",
+        "monthly" : "1299",
+        "description" : "Turbo Speed,No Data Cap,No Hidden Charges,1 Year Lock-in",
+        "image" : "",
+        "popular" : false
+    },
+    {
+        "id": "5",
+        "title" : "Promo Five",
+        "monthly" : "1499",
+        "description" : "Turbo Speed,No Data Cap,No Hidden Charges,1 Year Lock-in",
+        "image" : "",
+        "popular" : false
+    }
+]

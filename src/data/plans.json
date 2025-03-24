@@ -1,42 +1,30 @@
 [
     {
         "id": "1",
-        "title" : "SwitchLite Plan",
-        "monthly" : "699",
-        "description" : "Turbo Speed <br /><br />No Data Cap <br /><br />No Hidden Charges <br /><br />1 Year Lock-in",
-        "image" : "",
+        "title" : "Jack-Lite Plan",
+        "monthly" : "1000",
+        "description" : "35-50 Mbps,Unlimited Data,No Data Capping,No Lock-in Period,Reliable Connection",
         "popular" : false
     },
     {
         "id": "2",
-        "title" : "SwitchConnect Plan",
-        "monthly" : "799",
-        "description" : "Turbo Speed <br /><br />No Data Cap <br /><br />No Hidden Charges <br /><br />1 Year Lock-in",
-        "image" : "",
+        "title" : "Jack-Connect Plan",
+        "monthly" : "1500",
+        "description" : "51-70 Mbps,Unlimited Data, No Data Capping, No Lock-in Period, Optimized for Streaming and Gaming", 
         "popular" : true
     },
     {
         "id": "3",
-        "title" : "SwitchNet Plan",
-        "monthly" : "999",
-        "description" : "Turbo Speed <br /><br />No Data Cap <br /><br />No Hidden Charges <br /><br />1 Year Lock-in",
-        "image" : "",
+        "title" : "Jack-Net Plan",
+        "monthly" : "2000",
+        "description" : "71-100 Mbps, Unlimited Data, No Data Capping, No Lock-in Period,Ultra-Fast Speeds for Heavy Usage",
         "popular" : false
     },
     {
         "id": "4",
-        "title" : "SwitchSpeed Plan",
-        "monthly" : "1299",
-        "description" : "Turbo Speed <br /><br />No Data Cap <br /><br />No Hidden Charges <br /><br />1 Year Lock-in",
-        "image" : "",
-        "popular" : false
-    },
-    {
-        "id": "5",
-        "title" : "SwitchUltra Plan",
-        "monthly" : "1499",
-        "description" : "Turbo Speed <br /><br />No Data Cap <br /><br />No Hidden Charges <br /><br />1 Year Lock-in",
-        "image" : "",
+        "title" : "Jack-Speed Plan",
+        "monthly" : "2500",
+        "description" : "101-200 Mbps,Unlimited Data, No Data Capping, No Lock-in Period, Best for Business and Multi-Device Usage",
         "popular" : false
     }
 ]
