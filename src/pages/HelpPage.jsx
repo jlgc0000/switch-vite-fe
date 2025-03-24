@@ -2,11 +2,14 @@ import React from "react";
 import FaqListing from "../components/faq-page/FaqListing";
 import Contacts from "../components/faq-page/Contacts";
 
-const HelpPage = () => {
+const HelpPage = ({isHome = false}) => {
+  
   return (
     <>
-      <Contacts />
-      <FaqListing />
+      
+        <Contacts />
+   
+    {!isHome && <FaqListing />}
     </>
   );
 };
