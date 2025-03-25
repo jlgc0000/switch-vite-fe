@@ -1,21 +1,21 @@
 import HomePage from './pages/HomePage'
 import MainLayout from './layout/MainLayout'
 import NotFoundPage from './pages/NotFoundPage'
-import PromosPage from './pages/PromosPage'
+/*import PromosPage from './pages/PromosPage'
 import HelpPage from './pages/HelpPage'
 import AboutUs from './pages/AboutUs'
-
+import PlansPage from './pages/PlansPage'*/
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom'
-import PlansPage from './pages/PlansPage'
+
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<MainLayout />}>
     <Route index element={<HomePage />} />
-    <Route path='/promos' element={<PromosPage />} />
+   {/*<Route path='/promos' element={<PromosPage />} />
     <Route path='/aboutus' element={<AboutUs />} />
     <Route path='/plans' element={<PlansPage />} />
     <Route path='/promos' element={<PromosPage />} />
-    <Route path='/help' element={<HelpPage />} />
+    <Route path='/help' element={<HelpPage />} />*/}
     <Route path='*' element={<NotFoundPage />} />
   </Route>
 )
