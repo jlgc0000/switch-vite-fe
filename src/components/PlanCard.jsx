@@ -4,7 +4,9 @@ import { Card } from "flowbite-react";
 import { CheckCircle } from "lucide-react";
 
 const PlanCard = ({ plan }) => {
-  const features = plan.description.split(",").map(item => item.trim());
+  if (!plan) return null; // Prevent rendering if no plan data
+
+  const features = plan.description ? plan.description.split(",").map(item => item.trim()) : [];
 
   return (
     <div className="relative w-80 sm:w-80 h-auto sm:h-[500px]">
@@ -14,7 +16,7 @@ const PlanCard = ({ plan }) => {
           Popular
         </div>
       )}
-      
+
       <Card className="flex flex-col justify-between h-full shadow-xl rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700">
         <div className="p-6 flex-1">
           <h5 className="mb-4 text-xl font-bold text-indigo-600 dark:text-indigo-400 uppercase text-center">
@@ -31,7 +33,7 @@ const PlanCard = ({ plan }) => {
             </span>
           </div>
 
-          {/* Feature List with Fixed CheckCircle Size */}
+          {/* Feature List */}
           <ul className="mt-6 space-y-4">
             {features.map((feature, index) => (
               <li key={index} className="flex items-center gap-3 text-gray-600 dark:text-gray-300 text-base">
@@ -43,10 +45,9 @@ const PlanCard = ({ plan }) => {
         </div>
 
         <div className="p-4 text-center">
-        
-        <div className="mb-5 border border-gray-100"></div>
+          <div className="mb-5 border border-gray-100"></div>
           <Link
-            to={`/job/${plan.id}`}
+            to={plan.id ? `/plan/${plan.id}` : "#"}
             className="h-[48px] w-full inline-block rounded-lg bg-indigo-500 px-6 py-3 text-center text-sm font-semibold text-white hover:bg-indigo-600 transition-all duration-300"
           >
             Apply Now

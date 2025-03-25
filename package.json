@@ -11,7 +11,8 @@
     "format:check": "prettier . --check",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "server": "json-server --watch src/data/plans.json --port 8000"
   },
   "dependencies": {
     "@react-spring/parallax": "^9.7.5",
