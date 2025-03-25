@@ -7,7 +7,7 @@ const PlanCard = ({ plan }) => {
   const features = plan.description.split(",").map(item => item.trim());
 
   return (
-    <div className="relative">
+    <div className="relative w-80 sm:w-80 h-auto sm:h-[500px]">
       {/* Ribbon for Popular Plan */}
       {plan.popular && (
         <div className="absolute top-0 left-0 bg-gradient-to-r from-red-500 to-orange-500 text-white text-xs font-bold px-4 py-1 rounded-br-lg shadow-lg uppercase tracking-wide">
@@ -15,8 +15,8 @@ const PlanCard = ({ plan }) => {
         </div>
       )}
       
-      <Card className="flex flex-col justify-between h-full w-full max-w-sm sm:max-w-sm md:max-w-sm shadow-xl rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700">
-        <div className="p-6">
+      <Card className="flex flex-col justify-between h-full shadow-xl rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700">
+        <div className="p-6 flex-1">
           <h5 className="mb-4 text-xl font-bold text-indigo-600 dark:text-indigo-400 uppercase text-center">
             {plan.title}
           </h5>
@@ -31,21 +31,23 @@ const PlanCard = ({ plan }) => {
             </span>
           </div>
 
-          {/* Feature List with CheckCircle */}
+          {/* Feature List with Fixed CheckCircle Size */}
           <ul className="mt-6 space-y-4">
             {features.map((feature, index) => (
               <li key={index} className="flex items-center gap-3 text-gray-600 dark:text-gray-300 text-base">
-                <CheckCircle className="w-5 h-5 text-cyan-600 dark:text-cyan-500" />
+                <CheckCircle className="w-5 h-5 shrink-0 text-cyan-600 dark:text-cyan-500" />
                 <span className="font-medium" dangerouslySetInnerHTML={{ __html: feature }}></span>
               </li>
             ))}
           </ul>
         </div>
 
-        <div className="p-4 text-center rounded-b-lg">
+        <div className="p-4 text-center">
+        
+        <div className="mb-5 border border-gray-100"></div>
           <Link
             to={`/job/${plan.id}`}
-            className="h-[42px] w-full inline-block rounded-lg bg-indigo-500 px-6 py-2 text-center text-sm font-semibold text-white hover:bg-indigo-600 transition-all duration-300"
+            className="h-[48px] w-full inline-block rounded-lg bg-indigo-500 px-6 py-3 text-center text-sm font-semibold text-white hover:bg-indigo-600 transition-all duration-300"
           >
             Apply Now
           </Link>
