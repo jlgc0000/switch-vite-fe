@@ -21,12 +21,12 @@ export default {
         },
       },
       backgroundImage: {
-        "tech-pattern": "url('./src/assets/images/tech.jpg')",
-        "fibr-pattern": "url('./src/assets/images/fibr.jpg')",
-        "help-pattern": "url('./src/assets/images/help.png')",
-        "server-pattern": "url('./src/assets/images/server.jpg')",
-        "banner-pattern": "url('./src/assets/images/banner.png')",
-        "contact-pattern": "url('./src/assets/images/contact.jpg')",
+        "tech-pattern": "url('./assets/images/tech.jpg')",
+        "fibr-pattern": "url('./assets/images/fibr.jpg')",
+        "help-pattern": "url('./assets/images/help.png')",
+        "server-pattern": "url('./assets/images/server.jpg')",
+        "banner-pattern": "url('./assets/images/banner.png')",
+        "contact-pattern": "url('./assets/images/contact.jpg')",
       },
       textShadow: {
         glow: "0 0 8px white",
