@@ -1,0 +1,12 @@
+{"mode_of_payment": {
+    "method": "GCash",
+    "numbers": [
+      "09291515994",
+      "09093565143"
+    ]
+  },
+  "payment_policy": {
+    "reminder": "We will send multiple reminders to your registered contact number before the due date to ensure timely payment and avoid service interruption.",
+    "penalty": "If payment is not settled within 5 days of receiving the notice, your service will be temporarily disconnected until the balance is cleared. Reconnection may take up to 24 hours after payment confirmation."
+  }
+}
