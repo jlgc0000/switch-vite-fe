@@ -75,7 +75,7 @@ const FlowBiteNavBar = () => {
         <NavbarCollapse className={`absolute md:relative left-0 top-full md:top-0 w-full md:w-auto bg-indigo-700 md:bg-transparent flex flex-col md:flex-row transition-all duration-300 ease-in-out ${isOpen ? "block" : "hidden"}`}>
           {[ { name: "Home", id: "home" }, 
           { name: "Plans", id: "plans" }, 
-          { name: "Promos", id: "promos" },
+          /*{ name: "Promos", id: "promos" },*/
           { name: "About Us", id: "aboutus" },  
           { name: "Equipment", id: "equipment" }, 
           { name: "Team", id: "team" }, 
