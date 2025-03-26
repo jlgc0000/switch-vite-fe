@@ -6,31 +6,31 @@
     ,
   "installations": [
     {
-      "image": "./src/assets/images/team/1.jpg",
+      "image": "/images/team/1.jpg",
       "description": "Fiber optic cable installation at a commercial site."
     },
     {
-      "image": "./src/assets/images/team/2.jpg",
+      "image": "/images/team/2.jpg",
       "description": "Network configuration and setup for a corporate office."
     },
     {
-      "image": "./src/assets/images/team/3.jpg",
+      "image": "/images/team/3.jpg",
       "description": "Outdoor fiber optic deployment for residential areas."
     },
     {
-      "image": "./src/assets/images/team/4.jpg",
+      "image": "/images/team/4.jpg",
       "description": "Server rack and networking equipment installation."
     },
       {
-      "image": "./src/assets/images/team/5.jpg",
+      "image": "/images/team/5.jpg",
       "description": "Server rack and networking equipment installation."
     },
       {
-      "image": "./src/assets/images/team/6.jpg",
+      "image": "/images/team/6.jpg",
       "description": "Server rack and networking equipment installation."
     },
     {
-      "image": "./src/assets/images/team/7.jpg",
+      "image": "/images/team/7.jpg",
       "description": "Troubleshooting and maintenance of fiber connections."
     }
   ]
