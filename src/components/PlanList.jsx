@@ -1,28 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
+import planData from "../data/plans.json";
 import PlanCard from "./PlanCard";
+
+const plans = planData.Plans || []; // Ensure it's an array
 
 const PlanList = () => {
   const initialLimit = 4;
-  const [plans, setPlans] = useState([]);
   const [visibleCount, setVisibleCount] = useState(initialLimit);
 
-  useEffect(() => {
-    const fetchPlans = async () => {
-      try {
-        const res = await fetch("/api/Plans");
-        const data = await res.json();
-        setPlans(data);
-      } catch (error) {
-        console.error("Error fetching plans:", error);
-      }
-    };
-
-    fetchPlans();
-  }, []);
+  console.log("Plans data:", plans); // Debugging step
 
   const handleShowMore = () => {
-    setVisibleCount(plans.length); // Show all plans
+    setVisibleCount(plans.length);
   };
 
   return (
@@ -34,17 +24,18 @@ const PlanList = () => {
 
         {/* Grid Wrapper */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-center">
-          {plans.slice(0, visibleCount).map((plan, index) => (
-            <motion.div
-              key={plan.id}
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="flex justify-center"
-            >
-              <PlanCard plan={plan} className="h-full" />
-            </motion.div>
-          ))}
+          {Array.isArray(plans) &&
+            plans.slice(0, visibleCount).map((plan, index) => (
+              <motion.div
+                key={plan.id}
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                className="flex justify-center"
+              >
+                <PlanCard plan={plan} className="h-full" />
+              </motion.div>
+            ))}
         </div>
 
         {/* Show More Button */}

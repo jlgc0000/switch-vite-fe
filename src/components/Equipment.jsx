@@ -1,14 +1,20 @@
 import React, { useEffect, useRef } from "react";
+import contact from '../assets/images/contact.jpg';
+import fibr from '../assets/images/fibr.jpg';
+import server from '../assets/images/server.jpg';
+import tech from '../assets/images/tech.jpg';
+import nz3 from '../assets/images/nz3.jpg';
+import hub from '../assets/images/hub.jpg';
 
 const Equipment = () => {
   const equipments = [
-    { id: 1, name: "Fiber Optic Cable", category: "Cabling", image: "./src/assets/images/contact.jpg" },
-    { id: 2, name: "ONT (Optical Network Terminal)", category: "Networking", image: "./src/assets/images/contact.jpg" },
-    { id: 3, name: "Router", category: "Networking", image: "./src/assets/images/fibr.jpg" },
-    { id: 4, name: "Fiber Splicer", category: "Tools", image: "./src/assets/images/server.jpg" },
-    { id: 5, name: "Patch Panel", category: "Cabling", image: "./src/assets/images/tech.jpg" },
-    { id: 6, name: "Media Converter", category: "Networking", image: "./src/assets/images/nz3.jpg" },
-    { id: 7, name: "Network Switch", category: "Networking", image: "./src/assets/images/hub.jpg" },
+    { id: 1, name: "Fiber Optic Cable", category: "Cabling", image: contact },
+    { id: 2, name: "ONT (Optical Network Terminal)", category: "Networking", image: contact },
+    { id: 3, name: "Router", category: "Networking", image: fibr },
+    { id: 4, name: "Fiber Splicer", category: "Tools", image:server  },
+    { id: 5, name: "Patch Panel", category: "Cabling", image: tech },
+    { id: 6, name: "Media Converter", category: "Networking", image: nz3 },
+    { id: 7, name: "Network Switch", category: "Networking", image:hub  },
   ];
 
   const equipmentRefs = useRef([]);

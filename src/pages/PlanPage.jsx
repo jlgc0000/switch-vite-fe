@@ -1,15 +1,13 @@
 import { useState } from "react";
-import { useLoaderData } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { Send } from "lucide-react";
-
-export const planLoader = async ({ params }) => {
-  const res = await fetch(`/api/Plans/${params.id}`);
-  const data = await res.json();
-  return data;
-};
+import planData from "../data/plans.json"; // Import from local JSON
 
 export default function SubscriptionForm() {
-  const plan = useLoaderData();
+  const { id } = useParams(); // Get plan ID from URL
+  const plans = planData.Plans || []; // Ensure it's an array
+  const plan = plans.find((p) => p.id === id) || plans[0]; // Find the plan, fallback to first plan
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -19,6 +17,7 @@ export default function SubscriptionForm() {
     zip: "",
     plan: plan?.id || "basic",
   });
+
   const [errors, setErrors] = useState({});
 
   const validateForm = () => {

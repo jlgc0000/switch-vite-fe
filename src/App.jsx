@@ -1,7 +1,7 @@
 import HomePage from './pages/HomePage'
 import MainLayout from './layout/MainLayout'
 import NotFoundPage from './pages/NotFoundPage'
-import PlanPage, {planLoader} from './pages/PlanPage'
+import PlanPage from './pages/PlanPage'
 /*import PromosPage from './pages/PromosPage'
 import HelpPage from './pages/HelpPage'
 import AboutUs from './pages/AboutUs'
@@ -18,7 +18,7 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path='/plans' element={<PlansPage />} />
     <Route path='/promos' element={<PromosPage />} />
     <Route path='/help' element={<HelpPage />} />*/}
-    <Route path="plan/:id" element={<PlanPage />} loader={planLoader} />
+    <Route path="plan/:id" element={<PlanPage />} />
     <Route path='*' element={<NotFoundPage />} />
   </Route>
 )
