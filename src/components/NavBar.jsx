@@ -37,12 +37,12 @@ const NavBar = () => {
                   Plans{" "}
                 </Link>
               </NavbarLink>
-              <NavbarLink active={path == "/promos"} as={"div"}>
+             {/*<NavbarLink active={path == "/promos"} as={"div"}>
                 <Link to="/promos">
                   {" "}
                   Promos{" "}
                 </Link>
-              </NavbarLink>
+              </NavbarLink>*/}
               <NavbarLink active={path == "/aboutus"} as={"div"}>
                 <Link to="/aboutus">
                   {" "}

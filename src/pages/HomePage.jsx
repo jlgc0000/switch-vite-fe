@@ -51,9 +51,9 @@ const HomePage = () => {
       <Section>
         <Banner />
       </Section>
-      <Section id="promos">
+      {/*<Section id="promos">
         <PromoList isHome={true} />
-      </Section>
+      </Section>*/}
       <Section id="aboutus">
         <AboutUs />
       </Section>

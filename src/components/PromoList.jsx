@@ -1,14 +1,12 @@
 
 import React from 'react';
-import plan from '../data/plans.json';
-import { Link } from "react-router-dom";
-import PlanCard from '../components/PlanCard';
-import PlanPricingCard from '../components/plan-page/PlanPricingCard';
-import ViewAllJobs from '../components/ViewAllJobs';
+import promo from '../data/promos.json';
+import PromoCard from '../components/PromoCard';
+import ViewAllPromos from '../components/ViewAllPromos';
 import { motion } from "framer-motion";
 
 const PromoList = ({ isHome = false }) => {
-    const planListing = isHome ? plan.slice(0, 3) : plan;
+    const promoListing = isHome ? promo.slice(0, 3) : promo;
 
     return (
       <>
@@ -19,20 +17,18 @@ const PromoList = ({ isHome = false }) => {
           {isHome ? 'Latest Promo' : 'Available Promos'}
           </h2>
           <div className=" flex flex-wrap justify-center  grid-cols-1 gap-6 md:grid-cols-3">
-          {planListing.map( (plan,index) => (
+          {promoListing.map( (promo,index) => (
              <motion.div
-              key={plan.id}
+              key={promo.id}
               initial={{ opacity: 0, y: 30 }} // Start invisible & lower
               animate={{ opacity: 1, y: 0 }} // Fade in & move up
               transition={{ duration: 0.6, delay: index * 0.3 }} // Staggered effect
             >
-             <PlanCard key={plan.id} plan={plan} className="h-full"/>
+             <PromoCard key={promo.id} promo={promo} className="h-full"/>
             </motion.div>
-                 
-               // <PlanPricingCard />
               ))}
           </div>
-      {isHome && <ViewAllJobs />}
+      {isHome && <ViewAllPromos />}
         </div>
         
       </section>
