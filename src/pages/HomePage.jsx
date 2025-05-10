@@ -20,28 +20,29 @@ const HomePage = () => {
     }
   }, []);
 
- const Section = ({ id, children }) => {
-  return (
-    <motion.div
-      id={id}
-      className="scroll-mt-[4rem]" // Adjusts scroll positioning without extra space
-      initial={{ opacity: 0, y: 90 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1.5, ease: "easeOut" }}
-      viewport={{ once: true }}
-    >
-      {children}
-    </motion.div>
-  );
-};
-
+  const Section = ({ id, children }) => {
+    return (
+      <motion.div
+        id={id}
+        className="scroll-mt-[4rem]" // Adjusts scroll positioning without extra space
+        initial={{ opacity: 0, y: 90 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.5, ease: "easeOut" }}
+        viewport={{ once: true }}
+      >
+        {children}
+      </motion.div>
+    );
+  };
 
   return (
     <>
       <Section id="home">
         <Hero
-          title="Get that quality internet speed!"
-          subTitle="Enjoy the freedom of endless possibilities with Switch Fiber. Download and upload any songs you like, play your favorite online games, attach large files or folders, upload your trendy photos and videos. It is simple and easy with lightning-fast fiber speed."
+          title="Enjoy the internet we love here with Jack Fiber!"
+          subTitle="Explore the world without leaving your home. With Jack Fiber Internet Services, you will get
+an affordable, fast and reliable internet connection to everything that matters. Join us to
+discover the endless possibilities together."
         />
       </Section>
 
@@ -57,9 +58,9 @@ const HomePage = () => {
       <Section id="aboutus">
         <AboutUs />
       </Section>
-      <Section id="equipment">
+      {/* <Section id="equipment">
         <Equipment />
-      </Section>
+      </Section>*/}
       <Section id="team">
         <OurTeam />
       </Section>

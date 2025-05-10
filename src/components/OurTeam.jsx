@@ -10,12 +10,17 @@ const slides = team.installations;
 
 const InstallationGallery = () => {
   return (
-    <section className="bg-gray-100 py-20 px-6 text-center w-full overflow-hidden">
-      <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl font-extrabold text-indigo-500 mb-8">OUR TEAM</h2>
-        <p className="text-lg text-gray-700 mb-12">{team.ourteam.description}</p>
+    <section className="w-full overflow-hidden bg-gray-100 px-6 py-20 text-center">
+      <div className="mx-auto max-w-6xl text-center">
+        <h2 className="mb-8 text-4xl font-extrabold text-indigo-500">
+          Meet the People Behind the Connection
+        </h2>
+        <p
+          className="mb-12 text-lg text-gray-700"
+          dangerouslySetInnerHTML={{ __html: team.ourteam.description }}
+        ></p>
       </div>
-      <div className="max-w-6xl mx-auto">
+      {/*<div className="mx-auto max-w-6xl">
         <Swiper
           effect="coverflow"
           grabCursor={true}
@@ -39,12 +44,12 @@ const InstallationGallery = () => {
               <img
                 src={slide.image}
                 alt={`Slide ${index + 1}`}
-                className="w-full aspect-[16/9] object-cover rounded-lg"
+                className="aspect-[16/9] w-full rounded-lg object-cover"
               />
             </SwiperSlide>
           ))}
         </Swiper>
-      </div>
+      </div>*/}
     </section>
   );
 };
