@@ -1,29 +1,24 @@
 {
-"about": {
-"title": "About Us",
-"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-},
-"mission": {
-"title": "Our Mission",
-"description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-},
-"vision": {
-"title": "Our Vision",
-"description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-},
-"services": [
-{
-"title": "Service One",
-"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-},
-{
-"title": "Service Two",
-"description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-},
-{
-"title": "Service Three",
-"description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  "about": {
+    "title": "About Us",
+    "description": "Jack Fiber Internet Services is a proudly homegrown company based in Los Baños, Laguna, dedicated to delivering fast, reliable, and affordable internet solutions for both homes and businesses. As a local provider, we understand the everyday needs of our community from students attending online classes, to professionals working remotely, and families seeking entertainment and connection.<br/><br/>We currently serve the areas of Calamba, Los Baños, Pila, Alaminos, Victoria, Santa Cruz, and Pagsanjan (including Magdalena) and we continue to expand, reaching more households and enterprises across Laguna.<br/><br/>Driven by our mission to create a digitally empowered community, we believe that everyone deserves access to strong and stable internet. As part of this commitment, we give back by offering free internet and CCTV services to local barangay halls, supporting public safety and enhancing access to essential online resources.<br/><br/>We’re more than just your internet provider, we’re your partner in progress, keeping you connected to the world, one meaningful connection at a time."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "description": "Our mission is to build a digitally empowered community by bridging the digital divide in the Philippines. We are committed to delivering top-tier, fiber-powered connectivity to every household and business, enabling people to stay connected, informed, and productive in today’s fast-moving world. We believe that everyone deserves access to reliable internet, whether forwork, education, or entertainment."
+  },
+  "vision": {
+    "title": "Our Vision",
+    "description": "To become the most trusted, affordable and accessible internet service provider in the Philippines connecting communities to the world."
+  },
+  "services": [
+    {
+      "title": "Service One",
+      "description": "Fiber Optic Installation Installation from our system to your wifi router to provide fast internet connection to your home."
+    },
+    {
+      "title": "Service Two",
+      "description": "CCTV installation Provide inexpensive cctv system to upgrade your home or enterprise security"
+    }
+  ]
 }
-]
-}
-
