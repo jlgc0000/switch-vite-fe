@@ -1,9 +1,7 @@
 {
-    "ourteam":
-        {
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        }
-    ,
+  "ourteam": {
+    "description": "Our dedicated team is composed of passionate individuals who share a common goal: to serve the community with integrity, efficiency, and care. We believe that trust is the foundation of excellent service, and we strive to build that trust in every interaction whether we’re installing internet connections, answering inquiries, or solving technical issues. Our team is composed of skilled linemen, knowledgeable technical specialists, and responsive administrative staff, each playing a vital role in making sure your experience is smooth and satisfying. <br/><br/> Beyond our roles, what truly sets us apart is our shared commitment to putting people first. We understand that internet access is more than just a utility, it's a gateway to education, work, entertainment and connection with loved ones. That’s why we go the extra mile to ensure fast, dependable service that meets the needs of every household and business we serve. With a strong sense of teamwork and a passion for progress, our people work tirelessly behind the scenes and in the field to bring you reliable, high-quality internet experience you can count on."
+  },
   "installations": [
     {
       "image": "/images/team/1.jpg",
@@ -21,11 +19,11 @@
       "image": "/images/team/4.jpg",
       "description": "Server rack and networking equipment installation."
     },
-      {
+    {
       "image": "/images/team/5.jpg",
       "description": "Server rack and networking equipment installation."
     },
-      {
+    {
       "image": "/images/team/6.jpg",
       "description": "Server rack and networking equipment installation."
     },

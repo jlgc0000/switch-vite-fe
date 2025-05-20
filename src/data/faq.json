@@ -1,52 +1,42 @@
 [
-    {
-        "id": "1",
-        "title" : "How to settle my bill?",
-        "content" : "You can safely transfer money to pay your bills through our official payment portal, visit the link: https://pay.switchfiber.ph/<br />We accept Gcash, Maya, WeChat Pay, Debit or Credit Card payments. <br />Follow this guide on how to settle your account: <br />1. Open your browser (Google Chrome, Safari, Firefox, etc.) and visit the link for our online payment portal: https://pay.switchfiber.ph/ <br />2. Type in your Account number and Contact number which appears to your SOA (Statement of Account) <br />The SOA (Statement of Account) is sent to your registered email address and mobile number<br />3. Ensure that all of your account details are correct<br />4. Type in the amount to be paid<br />5. Select your preferred mode of payment (whether GCash, Maya, Debit/ Credit Card) <br />To pay through GCASH, select QR PH. Wait for it to generate a QR Code, kindly screenshot the generated QR Code. Open your GCASH App, tap the QR Code Scanner which is located in the middle-bottom section of the app. Tap “Upload QR”, select the screenshot from your phone’s gallery. <br />6. Verify the amount to be paid, click “Proceed”<br />7. Click “Back to Homepage”"
-    },
-    {
-        "id": "2",
-        "title" : "What are your payment channels?",
-        "content" : "You can safely transfer money to pay your bills through these official online facilities:<br />GCash (Through QR Ph), WeChat Pay, Maya, Debit and Credit Card (MasterCard, Visa, and JCB)<br />Access our online payment portal through this link: https://pay.switchfiber.ph/"
-    },
-    {
-        "id": "3",
-        "title" : "What is your business hours?",
-        "content" : "<p>We’ll try our best to accommodate you, our business operations are from Monday to Saturday 8:00 a.m. to 5:00 p.m.</p>"
-    },
-    {
-        "id": "4",
-        "title" : "How to apply as a Freelance Sales Agent?",
-        "content" : "<p>We are currently looking for Freelance Sales Agents that will help us expand our reach and connectivity throughout Rizal!</p><p>If you want to be part of us, just email the following requirements:</p><ul><li>Resume or Bio Data</li><li>Government Issued ID</li></ul><p>Submit only (1) for Primary ID e.g. Passport, Driver’s License, National ID, SSS, GSIS, UMID, PRC ID, Senior Citizen </p><p>Submit (2) for Secondary IDs e.g. Postal ID (Issued 2015 onwards), Voter’s ID, TIN ID, OFW ID, Company ID</p><p>Note: We DO NOT accept Barangay ID, Police Clearance ID, PWD ID, Solo Parent, Pagibig Loyalty Card Plus, and PRC </p><ul><li>Certificate of Residency or Lease Agreement.</li></ul><p>For us to know the length of your stay or how long are you residing to that address.</p><ul><li>NBI Clearance</li></ul><p>Qualifications:</p><ul><li>Willing to do field work, house-to-house selling</li><li>Sales experience is an advantage</li><li>Willing to work during weekends and holidays</li><li>With strong personality and good communication skills</li></ul><p>Instructions:</p><p>Email your complete requirements at: switchfiberinternet@gmail.com</p><p>Subject must be the Job </p><p>Ensure that you’re willing to be assign in Binangonan, Rizal</p><p>We are looking forward to review your applications!</p>"
-    },
-    {
-        "id": "5",
-        "title" : "How to change our WiFi Password?",
-        "content" : "699"
-    },
-    {
-        "id": "6",
-        "title" : "How to change our WiFi Name?",
-        "content" : "699"
-    },
-    {
-        "id": "7",
-        "title" : "What are the requirements for internet application?",
-        "content" : "699"
-    },
-    {
-        "id": "8",
-        "title" : "How to reach your customer service?",
-        "content" : "699"
-    },
-    {
-        "id": "9",
-        "title" : "SwitchLite Plan",
-        "content" : "699"
-    },
-    {
-        "id": "10",
-        "title" : "SwitchLite Plan",
-        "content" : "699"
-    }
+  {
+    "id": "1",
+    "title": "How to settle my bill?",
+    "content": "You can send your payment through the details found below: <br/><br/> GCASH:<br/><br/> Aljon J. – 0929 151 5994<br/> Jean P. – 0909 356 5143<br/> Vilma C. – 0998 313 9349<br/><br/> BPI:<br/><br/> Jack Fiber Internet Installation Services<br/> 5809 0060 65<br/><br/> Maya:<br/><br/> Aljon J. - 09291515994<br/><br/> Do not forget to send a screenshot as proof of payment to our FB account, Jack Fiber"
+  },
+  {
+    "id": "2",
+    "title": "What are your payment channels?",
+    "content": "You can safely transfer your payment in gcash, maya or BPI. You can opt also to pay through our collector if you are from Los Banos and Pagsanjan."
+  },
+  {
+    "id": "3",
+    "title": "What is your business hours?",
+    "content": "We are open from Monday to Saturday, 8 am to 5 pm only. Chats and messages beyond that time are entertained in the following day."
+  },
+  {
+    "id": "4",
+    "title": "How to apply as a Freelance Sales Agent?",
+    "content": "<p>At the moment, we are not onboarding freelance sales agents. However, we welcome referrals! If you refer someone who successfully becomes an installed customer, you’ll receive a referral reward of ₱300 for each confirmed installation. It’s a simple way to earn while helping others connect with our services.</p>"
+  },
+  {
+    "id": "5",
+    "title": "How to change our WiFi Password?",
+    "content": "You can access it through the following instruction below:<br/><br/> 1. Open your browser (Google Chrome, Mozilla Firefox, Safari)<br/> 2. Type <strong>192.168.100.1</strong> in the URL box and wait for the Huawei UI web page to show up<br/> 3. Put <strong>root</strong> as the username and <strong>admin</strong> as the password.<br/><br/> <div class='flex justify-center mb-4'>   <img src='/images/faq/wifi-1.png' alt='Wifi One' class='w-32 h-32 object-cover rounded-lg shadow-md' /> </div> 4. You will see this modem UI after entering the password. Click <strong>WiFi Configuration</strong>.<br/><br/> <div class='flex justify-center mb-4'>   <img src='/images/faq/wifi-2.png' alt='Wifi Two' class='w-32 h-32 object-cover rounded-lg shadow-md' /> </div> 5. Enter your desired password. <strong>Note:</strong> Do not hide the network."
+  },
+  {
+    "id": "6",
+    "title": "How to change our WiFi Name?",
+    "content": "You can access it through the following instruction below:<br/><br/>1. Open your browser (Google Chrome, Mozilla Firefox, Safari)<br/>2. Type <strong>192.168.100.1</strong> in the URL box and wait for the Huawei UI web page to show up<br/>3. Use <strong>root</strong> as the username and <strong>admin</strong> as the password.<br/><br/><div class='flex justify-center mb-4'><img src='/images/faq/wifi-1.png' alt='Wifi One' class='w-32 h-32 object-cover rounded-lg shadow-md' /></div>4. You will see this modem UI after entering the password. Click <strong>WiFi Configuration</strong>.<br/><br/><div class='flex justify-center mb-4'><img src='/images/faq/wifi-2.png' alt='Wifi Two' class='w-32 h-32 object-cover rounded-lg shadow-md' /></div>5. Enter the desired WiFi name. <strong>Note:</strong> Do not hide the network."
+  },
+  {
+    "id": "7",
+    "title": "What are the requirements for internet application?",
+    "content": "<strong>Initial Information</strong> – To confirm your installation request, we will need your full name, complete address, and contact number. Once received, please allow 1–3 days for our team to conduct a site survey before proceeding with installation. <br/><br/> <strong>On-Site Process</strong> – When our team arrives in your area, you’ll be asked to fill out our installation form, which includes your personal details and a copy of our terms and conditions for your review and agreement.<br/><br/> <strong>Installation Fee </strong>– A one-time installation fee of ₱1,000–₱1,500 will be collected, depending on your location and distance from the main road.<br/><br/> <strong>Monthly Internet Fee</strong> – Your monthly internet subscription fee will begin one month after the installation date."
+  },
+  {
+    "id": "8",
+    "title": "How to reach your customer service?",
+    "content": "You can reach us in our fb pages: <a href='https://www.facebook.com/jack.fiber.2024' target='_blank' rel='noopener noreferrer' class='underline text-blue-600 text-blue-800'>Jack Fiber</a>, <a href='https://www.facebook.com/jackfiberservices' target='_blank' rel='noopener noreferrer' class='underline text-blue-600 text-blue-800'>Jack Fiber Services</a>, <a href='https://www.facebook.com/alaminos.jackfiber' target='_blank' rel='noopener noreferrer' class='underline text-blue-600 text-blue-800'>Jack Fiber Alaminos</a>, and <a href='https://www.facebook.com/profile.php?id=61551344948622' target='_blank' rel='noopener noreferrer' class='underline text-blue-600 text-blue-800'>Jack Fiber Citadel</a>. <br/><br/> You can also contact us in the following numbers: <strong>09088119249</strong> and <strong>09177044769</strong>"
+  }
 ]
