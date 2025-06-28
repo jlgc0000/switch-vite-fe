@@ -17,14 +17,14 @@
         "id": "3",
         "title" : "General Inquiries",
         "type"  : "email",
-        "contact" : "customercare@switchfiber.p",
-        "content" : "Reach out to us at customercare@switchfiber.ph"
+        "contact" : "jackfiberservices@gmail.com",
+        "content" : "Reach out to us at jackfiberservices@gmail.com"
     },
     {
         "id": "4",
         "title" : "Marketing Inquiries",
         "type"  : "email",
-        "contact" : "customercare@switchfiber.p",
-        "content" : "Email us at customercare@switchfiber.ph"
+        "contact" : "jackfiberservices@gmail.com",
+        "content" : "Email us at jackfiberservices@gmail.com"
     }
 ]
