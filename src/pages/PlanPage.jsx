@@ -22,6 +22,8 @@ export default function SubscriptionForm() {
     Zip: "",
   };
 
+
+
   const [formData, setFormData] = useState(initialFormState);
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
