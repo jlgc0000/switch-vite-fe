@@ -3,8 +3,8 @@ import about from "../data/about.json"; // Import JSON data
 
 const AboutUs = () => {
   return (
-    <section className="mb-32 mt-10  min-h-96 bg-gray-100 p-6">
-      <div className="mx-auto max-w-5xl text-center">
+    <section className=" min-h-96 bg-gray-100 p-6">
+      <div className="mb-32 mt-10  mx-auto max-w-5xl text-center">
         {/* About Us Header */}
         <h2 className="mb-4 text-4xl font-extrabold text-indigo-500">
           {about.about.title}

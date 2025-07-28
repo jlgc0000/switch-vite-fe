@@ -16,7 +16,7 @@ const MainLayout = () => {
         <FlowBiteNav />
         <Outlet />
       </main>
-      <footer className="bg-gray-200 p-0 text-center">
+      <footer>
         <Footer />
       </footer>
     </div>

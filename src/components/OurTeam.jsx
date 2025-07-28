@@ -5,14 +5,18 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import team from "../data/team.json";
+import nz3 from '../assets/images/tech.jpg';
 
 const slides = team.installations;
 
 const InstallationGallery = () => {
   return (
-    <section className="w-full overflow-hidden bg-gray-100 px-6 py-20 text-center">
-      <div className="mx-auto max-w-6xl text-center">
-        <h2 className="mb-8 text-4xl font-extrabold text-indigo-500">
+    <section className="w-full overflow-hidden bg-white px-6 py-20 text-center">
+      {/*<div className="mx-auto max-w-6xl text-center">
+        <h2 className="mb-8 text-4xl font-extrabold text-indigo-500">*/}
+        
+        <div className="mb-72 mt-20 mx-auto max-w-6xl text-center">
+        <h2 className="mb-16 text-4xl font-extrabold text-indigo-500">
           Meet the People Behind the Connection
         </h2>
         <p
