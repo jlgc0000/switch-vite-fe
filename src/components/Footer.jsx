@@ -21,7 +21,7 @@ const Footer = () => {
             >
               Facebook
             </a>
-            <a
+           {/*  <a
               href="#"
               target="_blank"
               rel="noopener noreferrer"
@@ -36,7 +36,7 @@ const Footer = () => {
               className="text-gray-400 hover:text-white"
             >
               Instagram
-            </a>
+            </a>*/}
           </div>
         </div>
       </div>

@@ -21,7 +21,7 @@ const PlanCard = ({ plan }) => {
       )}
 
       <Card className="flex flex-col justify-between h-full shadow-xl rounded-lg overflow-hidden 
-        border border-gray-200 dark:border-gray-700">
+        border border-gray-200 dark:border-black">
         
         <div className="p-6 flex-1">
           <h5 className="mb-4 text-xl font-bold text-indigo-600 dark:text-indigo-400 uppercase text-center">

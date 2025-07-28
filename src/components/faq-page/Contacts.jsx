@@ -22,7 +22,7 @@ const Contacts = () => {
         </div>
         
       </div>
-    </section><ContactForm />
+    </section>{/*<ContactForm />*/}
     
     </>
   );

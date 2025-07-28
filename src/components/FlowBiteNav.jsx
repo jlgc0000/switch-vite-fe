@@ -20,7 +20,8 @@ const FlowBiteNavBar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "plans", "promos", "aboutus", "equipment", "team", "help"];
+      //const sections = ["home", "plans", "promos", "aboutus", "equipment", "team", "help"];
+      const sections = ["home", "plans", "promos", "aboutus", "team", "help"];
       let currentSection = "";
 
       sections.forEach((section) => {
@@ -83,7 +84,7 @@ const FlowBiteNavBar = () => {
             { name: "Home", id: "home" },
             { name: "Plans", id: "plans" },
             { name: "About Us", id: "aboutus" },
-            { name: "Equipment", id: "equipment" },
+            //{ name: "Equipment", id: "equipment" },
             { name: "Team", id: "team" },
             { name: "Contact Us", id: "help" },
           ].map((item, index) => (
